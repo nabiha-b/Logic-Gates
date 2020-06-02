@@ -1,0 +1,14 @@
+# Nabiha Bashir
+# This program stimulates a 2 input XNOR Gate
+
+#-------XNOR Gate-------
+print("XNOR Gate")
+# Get A & B values
+xnorA = int(input("Enter a value for A (1 or 0): "))
+xnorB = int(input("Enter a value for B (1 or 0): "))
+# Display A & B
+print("Your inputs A =", xnorA, "and B =", xnorB)
+if (xnorA == xnorB):
+    print("Make your statement TRUE \n")
+else:
+    print("Make your statement FALSE \n")
